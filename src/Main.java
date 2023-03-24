@@ -25,10 +25,8 @@ public class Main {
 
 
             int scelta = input.nextInt();
-            input.nextLine(); // Consuma il newline residuo
+            input.nextLine();
 
-
-            // Consuma il carattere di fine linea
 
             switch (scelta) {
                 case 1:
@@ -39,10 +37,10 @@ public class Main {
                     String titolo = input.nextLine();
                     System.out.print("Anno pubblicazione: ");
                     int anno = input.nextInt();
-                    input.nextLine(); // Consuma il newline residuo
+                    input.nextLine();
                     System.out.print("Numero pagine: ");
                     int pagine = input.nextInt();
-                    input.nextLine(); // Consuma il newline residuo
+                    input.nextLine();
                     System.out.print("Autore: ");
                     String autore = input.nextLine();
                     System.out.print("Genere: ");
@@ -62,10 +60,10 @@ public class Main {
                     String titoloR = input.nextLine();
                     System.out.print("Anno pubblicazione: ");
                     int annoR = input.nextInt();
-                    input.nextLine(); // Consuma il newline residuo
+                    input.nextLine();
                     System.out.print("Numero pagine: ");
                     int pagineR = input.nextInt();
-                    input.nextLine(); // Consuma il newline residuo
+                    input.nextLine();
                     System.out.print("Periodicità (SETTIMANALE, MENSILE o SEMESTRALE): ");
                     String periodicità = input.nextLine().toUpperCase();
 
