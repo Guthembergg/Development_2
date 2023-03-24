@@ -81,7 +81,7 @@ public class Main {
                     System.out.print("Inserisci il codice ISBN dell'elemento da cercare: ");
                     String isbnToFind = input.nextLine();
                     Optional<ElementoCatalogo> risultatoISBN = catalogo.ricercaPerISBN(isbnToFind);
-                    if (risultatoISBN == null) {
+                    if (risultatoISBN.isEmpty()) {
                         System.out.println("Elemento non trovato");
                     } else {
                         System.out.println(risultatoISBN);
