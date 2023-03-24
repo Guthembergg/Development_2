@@ -1,12 +1,9 @@
-public class ElementoCatalogo {
+public abstract class ElementoCatalogo {
     private String ISBN;
     private String titolo;
     private int anno_pubblicazione;
     private int numero_pagine;
 
-    enum Periodicita {SETTIMANALE, MENSILE, SEMESTRALE}
-
-    ;
 
     public ElementoCatalogo(String ISBN, String titolo, int anno_pubblicazione, int numero_pagine) {
         this.ISBN = ISBN;
