@@ -15,4 +15,15 @@ class Libro extends ElementoCatalogo {
     public String getGenere() {
         return genere;
     }
+
+    public String toString() {
+        return "Libro{" +
+                "isbn='" + this.getISBN() + '\'' +
+                ", titolo='" + this.getTitolo() + '\'' +
+                ", annoPubblicazione=" + this.getAnnoPubblicazione() +
+                ", numPagine=" + this.getNumeroPagine() +
+                ", autore='" + this.getAutore() + '\'' +
+                ", genere='" + this.getGenere() + '\'' +
+                '}';
+    }
 }
